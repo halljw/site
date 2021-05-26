@@ -92,6 +92,11 @@
     border-color: #70726F;
   }
 
+  .jumbotron .dark-button {
+    border: 5px double black;
+    color: black;
+  }
+
 .about-me {
     background-color: rgba(0,0,0,.7);
     padding-top: 1vh;
@@ -131,7 +136,7 @@
 }
 
 /* Contact Me */
-.contact-me {
+.title {
     background: transparent;
     color: black;
     font-size: 24px;
@@ -140,12 +145,34 @@
     padding: 0%;
 }
 
-.contact-me h1 {
-    font-size: 32px;
+.title h1 {
+    font-size: 36px;
 }
 
-  /* Footer */
-  .footer {
+.title h3 {
+    font-size: 24px;
+}
+
+.main-resume {
+    font-family: 'Arvo', courier, serif;
+}
+
+.main-resume h1 {
+    font-weight: bold;
+}
+
+.main-resume img {
+    height: 30vh;
+    width: auto;
+}
+
+.thesis img {
+    height: 95vh;
+    width: auto;
+}
+
+/* Footer */
+.footer {
     position: absolute;
     background-color: rgba(0,0,0,1);
     padding: 0px;
