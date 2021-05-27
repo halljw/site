@@ -38,7 +38,7 @@
   }
   
   .navbar-brand img {
-    height: 60px;
+    height: 5vh;
     transition: all .5s ease;
   }
   
@@ -49,8 +49,8 @@
   .navbar a {
     font-size: 24px;
     color: white;
-    padding: 14px 14px;
-    line-height: 80px;
+    padding-top: 2vh;
+    line-height: auto;
     transition: all .5s ease;
     text-decoration: none;
   }
@@ -61,6 +61,7 @@
   }
 
   .navbar-right {
+      nav-left: -50vh;
       padding-right: 1%;
   }
 
@@ -79,17 +80,19 @@
 }
   
   .jumbotron button {
-    background: transparent;
+    background: rgba(255,255,255,.3);
     border: 5px double white;
     font-style: italic;
     font-weight: bold;
     transition: all .5s ease;
     text-shadow: 0px 0px 1px black;
+    margin-bottom: 1vh;
   }
   
   .jumbotron button:hover {
-    color: #70726F;
-    border-color: #70726F;
+    color: #4d4d4d;
+    border-color: #4d4d4d;
+    background: rgba(255,255,255,.5);
   }
 
   .jumbotron .dark-button {
@@ -111,28 +114,45 @@
 
 .about-me p {
     color: darkgray;
+    text-align: justify;
 }
 
 .about-me img {
-    height: 30vh;
-    width: auto;
+    height: auto;
+    width: 100%;
+    max-width: 30vh;
+    vertical-align: middle;
 }
 
 .about-this-site {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: ghostwhite;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
 
 .about-this-site h1 {
-    color: white;
+    color: black;
     font-family: 'Arvo', courier, serif;
     font-weight: bold;
 }
 
 .about-this-site img {
-    height: 30vh;
-    width: auto;
+    height: auto;
+    width: 100%;
+    max-width: 30vh;
+    margin: 0;
+    
+    top: 50%;
+}
+
+.about-this-site p {
+    text-align: justify;
+}
+
+.image-center-align {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 /* Contact Me */
